@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fb_loginpage_mycaptain_assignment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fb_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/button_btn"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FB_loginPage_myCaptain_assignment">
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:label="FB_loginPage">
+
+        </activity>
+    </application>
+
+</manifest>
